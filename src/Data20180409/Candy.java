@@ -1,12 +1,14 @@
 package Data20180409;
 
+import java.lang.reflect.Modifier;
+
 public class Candy {
 	public static void main(String[] args) {
 		int[] a = new int[]{5,3,1};
 		int[] b = new int[1];
-		if(a.getClass().isInstance(b)) {
-			System.out.println("1");
-		}
+		Candy c = new Candy();
+
+		System.out.println(new Modifier().isStatic((c.getClass().getModifiers())));
 		//candy(a);
 	}
     public static int candy(int[] ratings) {
