@@ -12,9 +12,19 @@ public class MedianOfTwoSortedArrays {
     public static void main(String[] args){
         System.out.print(new MedianOfTwoSortedArrays().findMedianSortedArrays(new int[]{1,2,3,4,5}, new int[]{3,4,5,6,7}));
     }
-    public double findMedianSortedArrays1(int A[], int[] B){
 
+    /**
+     * 留个坑 日后填
+     * @param A
+     * @param B
+     * @return
+     */
+    public double findMedianSortedArrays1(int A[], int[] B){
+        int len = A.length +  B.length;
+
+        return 0.0;
     }
+
     public double findMedianSortedArrays(int A[], int[] B){
         PriorityQueue<Integer> min = new PriorityQueue<>();
         PriorityQueue<Integer> max = new PriorityQueue<>(10, new Comparator<Integer>(){
