@@ -61,14 +61,16 @@ public class RotateImage {
     public void rotate3(int[][] matrix){
         //对角反转
         for(int i = 0; i < matrix.length; i++){
-            for(int j = 0; j < matrix.length -1 - i; j++){
+            int len = matrix.length -1 - i;
+            for(int j = 0; j < len; j++){
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[matrix.length - 1 - j][matrix.length - 1 - i];
                 matrix[matrix.length - 1 - j][matrix.length - 1 - i] = temp;
             }
         }
         //水平翻转
-        for(int i = 0; i < matrix.length / 2; i++){
+        int len = matrix.length / 2;
+        for(int i = 0; i < len; i++){
             for(int j = 0; j < matrix.length; j++){
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[matrix.length - 1 - i][j];
