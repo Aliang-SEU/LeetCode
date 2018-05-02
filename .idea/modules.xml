@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/../DesignPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quesAnswer/hahu.iml" filepath="$PROJECT_DIR$/../quesAnswer/hahu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../seckill/seckill.iml" filepath="$PROJECT_DIR$/../seckill/seckill.iml" />
     </modules>
   </component>
 </project>
