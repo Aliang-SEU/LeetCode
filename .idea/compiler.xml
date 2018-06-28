@@ -10,9 +10,6 @@
         <module name="seckill" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hahu" target="1.7" />
-      <module name="seckill" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8" />
   </component>
 </project>
